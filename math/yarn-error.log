@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node/11.6.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js init
+
+PATH: 
+  /usr/local/opt/openssl/bin:/Users/pascalepierre/.bin:/usr/local/rvm/gems/ruby-1.9.3-p392/bin:/usr/local/rvm/gems/ruby-1.9.3-p392@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p392/bin:/usr/local/rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/pascalepierre/projects/lambda/math/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
